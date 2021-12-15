@@ -11,7 +11,7 @@ import java.util.Properties;
 public class ConnectionProvider {
 
 
-	private static String url = "jdbc:sqlite:C:\\Users\\Berardi\\versionEntrega\\finalCountdown\\turismo.db";
+	private static String url = "jdbc:sqlite:D:\\User\\Enterprise\\entregaFinal\\turismo.db";
 
 	private static Connection connection;
 
