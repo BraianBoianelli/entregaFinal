@@ -74,3 +74,29 @@ https://i.ibb.co/kJ9V9nj/Screenshot-20211214-101207-3.png
 https://i.ibb.co/zbP9WhT/Screenshot-20211214-101848-2.png
 https://i.ibb.co/YW8yc2b/Screenshot-20211214-102107-2.png
 https://i.ibb.co/8mKXWsZ/Screenshot-20211214-102135-3.png
+
+
+
+<form action="login" method="post">
+
+						<div class="mb-3">
+							<label for="username" class="form-label">Usuario</label> <input class="form-control" name="username">
+						</div>
+
+						<div class="mb-3">
+							<label for="password" class="form-label">Contraseña</label> <input type="password" class="form-control" name="password">
+						</div>
+
+						<div class="d-grid gap-2">
+							<button type="submit" class="btn btn-lg btn-primary">Ingresar</button>
+						</div>
+					</form>
+					
+					
+<c:if test="${flash != null}">
+				<div class="alert alert-danger">
+					<p>
+						<c:out value="${flash}" />
+					</p>
+				</div>
+			</c:if>

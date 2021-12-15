@@ -1,0 +1,25 @@
+.containerLocal{
+	margin: 40px 40px;
+	border-radius: 60px;
+	background:#17a2b7;
+	width: 100vw;
+	height: 85vh;
+}
+
+.containerCarrousel, .containerLogo {
+	
+	margin: 60px 10px;
+	height: 80%;
+	width:  80%;
+	overflow: hidden;
+	border-radius: 30px !important;
+}
+
+.containerCarrousel {
+	
+	background-image: url("https://i.ibb.co/1q4JLJZ/Screenshot-20211212-091410-2.png");
+	background-position: center center;
+	background-repeat: space repeat;
+	background-size: contain;
+	
+}
