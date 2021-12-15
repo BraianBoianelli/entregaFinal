@@ -60,6 +60,10 @@ public class User {
 		return promotion.getDuration() <= this.time;
 	}
 
+	public String username2() {
+		return username.toUpperCase().charAt(0) + username.substring(1, username.length()).toLowerCase();
+	}
+	
 	public boolean checkPassword(String password) {
 		
 		return Crypt.match(password, this.passwordHash);
