@@ -17,3 +17,15 @@ body *{
 .marginCorrector{
 	margin-top: -15px;
 }
+
+
+.containerCarrouselIndex {
+	margin-top: 20px;
+	min-height: 60vh;
+	min-width: 80vw;
+	background-image: url("https://i.ibb.co/Kwkq43T/475841.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50px;
+	background-position: center center;
+}
