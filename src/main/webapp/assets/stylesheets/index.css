@@ -19,13 +19,26 @@ body *{
 }
 
 
-.containerCarrouselIndex {
+.s1 {
 	margin-top: 20px;
 	min-height: 60vh;
 	min-width: 80vw;
-	background-image: url("https://i.ibb.co/Kwkq43T/475841.jpg");
+	background-image: url("https://i.ibb.co/qLGyVbk/872716.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 50px;
 	background-position: center center;
+	transition: .8s;
+}
+
+.s2 {
+	margin-top: 20px;
+	min-height: 60vh;
+	min-width: 80vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50px;
+	background-position: center center;
+	transition: .8s;
+	background-image: url("");
 }
